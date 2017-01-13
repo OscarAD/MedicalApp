@@ -94,3 +94,7 @@ D:\Documents\Programming History\asg3 (Doctor's Office)\Asg2\obj\Debug\Asg2.Reso
 D:\Documents\Programming History\asg3 (Doctor's Office)\Asg2\obj\Debug\Asg2.exe
 D:\Documents\Programming History\asg3 (Doctor's Office)\Asg2\obj\Debug\Asg2.xml
 D:\Documents\Programming History\asg3 (Doctor's Office)\Asg2\obj\Debug\Asg2.pdb
+D:\Documents\Programming History\asg3 (MEDICAL OFFICE)\Asg2\bin\Debug\Asg2.exe.config
+D:\Documents\Programming History\asg3 (MEDICAL OFFICE)\Asg2\obj\Debug\Asg2.exe
+D:\Documents\Programming History\asg3 (MEDICAL OFFICE)\Asg2\obj\Debug\Asg2.xml
+D:\Documents\Programming History\asg3 (MEDICAL OFFICE)\Asg2\obj\Debug\Asg2.pdb
