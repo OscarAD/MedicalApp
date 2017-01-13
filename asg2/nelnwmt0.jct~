@@ -1,0 +1,74 @@
+﻿Imports System.IO
+Imports System.Xml.Serialization
+
+Public Class patientForm
+
+
+    Private Sub saveBtn_Click() Handles saveBtn.Click
+
+
+        If insuranceCheck.Checked = False Then
+
+            Dim newPatient As New Patient(txtID.Text, txtFname.Text, txtLname.Text, Datepick.Value, txtPhone.Text, txtEmail.Text)
+
+            patientList.Add(newPatient)
+
+
+            statLabel.Text = "Patient added"
+
+
+
+
+
+        ElseIf insuranceCheck.Checked = True
+
+            Dim newPatient As New Patient(txtID.Text, txtFname.Text, txtLname.Text, Datepick.Value, txtPhone.Text, txtEmail.Text, comboProvider.SelectedItem.ToString, comboPlan.SelectedItem.ToString, txtSubsID.Text, txtPlanID.Text)
+
+            patientList.Add(newPatient)
+
+            MessageBox.Show("Patient added")
+
+
+
+        End If
+
+
+        Dim sw As New StreamWriter("Patients.xml")
+        Dim serial As New XmlSerializer(patientList.GetType())
+        serial.Serialize(sw, patientList)
+        sw.Close()
+
+    End Sub
+
+    Private Sub insuranceCheck_CheckedChanged() Handles insuranceCheck.CheckedChanged
+
+        insuranceBox.Visible = Not insuranceBox.Visible
+
+
+    End Sub
+
+    Private Sub btnExit_Click() Handles closeBtn.Click
+
+        Me.Close()
+        MainForm.Show()
+
+
+
+    End Sub
+
+    Private Sub patientForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+
+
+        Msgbox_Yes_No()
+
+
+
+    End Sub
+
+
+
+End Class
