@@ -43,7 +43,7 @@ Partial Class MainForm
         'MenuStrip
         '
         Me.MenuStrip.AutoSize = False
-        Me.MenuStrip.BackColor = System.Drawing.Color.Transparent
+        Me.MenuStrip.BackColor = System.Drawing.Color.Black
         Me.MenuStrip.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MenuStrip.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.patientMenu, Me.physicianMenu, Me.AppointmentsToolStripMenuItem, Me.aboutProgram})
@@ -58,7 +58,7 @@ Partial Class MainForm
         '
         Me.patientMenu.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.patientAdd, Me.patientList, Me.patientFind})
         Me.patientMenu.Font = New System.Drawing.Font("Berlin Sans FB", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.patientMenu.ForeColor = System.Drawing.SystemColors.Desktop
+        Me.patientMenu.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.patientMenu.Name = "patientMenu"
         Me.patientMenu.Size = New System.Drawing.Size(116, 38)
         Me.patientMenu.Text = "Patient"
@@ -84,7 +84,7 @@ Partial Class MainForm
         'physicianMenu
         '
         Me.physicianMenu.Font = New System.Drawing.Font("Berlin Sans FB", 21.75!)
-        Me.physicianMenu.ForeColor = System.Drawing.SystemColors.Desktop
+        Me.physicianMenu.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.physicianMenu.Name = "physicianMenu"
         Me.physicianMenu.Size = New System.Drawing.Size(138, 38)
         Me.physicianMenu.Text = "Physician"
@@ -93,7 +93,7 @@ Partial Class MainForm
         '
         Me.AppointmentsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ScheduleToolStripMenuItem, Me.ViewToolStripMenuItem})
         Me.AppointmentsToolStripMenuItem.Font = New System.Drawing.Font("Berlin Sans FB", 21.75!)
-        Me.AppointmentsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Desktop
+        Me.AppointmentsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.AppointmentsToolStripMenuItem.Name = "AppointmentsToolStripMenuItem"
         Me.AppointmentsToolStripMenuItem.Size = New System.Drawing.Size(196, 38)
         Me.AppointmentsToolStripMenuItem.Text = "Appointments"
@@ -114,7 +114,7 @@ Partial Class MainForm
         '
         Me.aboutProgram.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutToolStripMenuItem})
         Me.aboutProgram.Font = New System.Drawing.Font("Berlin Sans FB", 21.75!)
-        Me.aboutProgram.ForeColor = System.Drawing.SystemColors.Desktop
+        Me.aboutProgram.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.aboutProgram.Name = "aboutProgram"
         Me.aboutProgram.Size = New System.Drawing.Size(84, 38)
         Me.aboutProgram.Text = "Help"
@@ -127,19 +127,21 @@ Partial Class MainForm
         '
         'btnExit
         '
-        Me.btnExit.BackColor = System.Drawing.Color.Transparent
+        Me.btnExit.BackColor = System.Drawing.Color.Black
         Me.btnExit.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnExit.DialogResult = System.Windows.Forms.DialogResult.OK
         Me.btnExit.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlText
         Me.btnExit.FlatAppearance.BorderSize = 0
         Me.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnExit.Font = New System.Drawing.Font("Berlin Sans FB", 21.75!)
-        Me.btnExit.ForeColor = System.Drawing.SystemColors.Desktop
-        Me.btnExit.Location = New System.Drawing.Point(933, 1)
+        Me.btnExit.ForeColor = System.Drawing.SystemColors.HotTrack
+        Me.btnExit.Location = New System.Drawing.Point(922, 0)
         Me.btnExit.Margin = New System.Windows.Forms.Padding(2)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(91, 41)
         Me.btnExit.TabIndex = 24
         Me.btnExit.Text = "Exit"
+        Me.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnExit.UseVisualStyleBackColor = False
         '
         'lblDateTime
@@ -168,8 +170,8 @@ Partial Class MainForm
         Me.BackgroundImage = Global.Asg2.My.Resources.Resources.back
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1024, 624)
-        Me.Controls.Add(Me.lblDateTime)
         Me.Controls.Add(Me.btnExit)
+        Me.Controls.Add(Me.lblDateTime)
         Me.Controls.Add(Me.MenuStrip)
         Me.ForeColor = System.Drawing.SystemColors.ControlText
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D

@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfPatient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Patient>
-    <idNumber>0</idNumber>
-    <firstName>Carlos</firstName>
-    <lastName>Martinez</lastName>
-    <birthDate>11/21/1950</birthDate>
-    <phone>7864567723</phone>
-    <email>CMar@yahoo.com</email>
-    <insuranceProvider>Humana</insuranceProvider>
-    <planType>HMO</planType>
-    <subscriberID>9375258</subscriberID>
-    <planID>145</planID>
-  </Patient>
-  <Patient>
     <idNumber>1</idNumber>
     <firstName>Peter</firstName>
     <lastName>Griffin</lastName>
@@ -46,7 +34,7 @@
   </Patient>
   <Patient>
     <idNumber>4</idNumber>
-    <firstName>Andrews</firstName>
+    <firstName>Andrew</firstName>
     <lastName>Michaels</lastName>
     <birthDate>9/11/1956</birthDate>
     <phone>7864562254</phone>
@@ -54,7 +42,7 @@
   </Patient>
   <Patient>
     <idNumber>5</idNumber>
-    <firstName>Johna</firstName>
+    <firstName>John</firstName>
     <lastName>Smith</lastName>
     <birthDate>6/19/1970</birthDate>
     <phone>7864567723</phone>
@@ -75,21 +63,5 @@
     <planType>HMO</planType>
     <subscriberID>9375258</subscriberID>
     <planID>1001</planID>
-  </Patient>
-  <Patient>
-    <idNumber>7</idNumber>
-    <firstName>Carlos</firstName>
-    <lastName>Martinez</lastName>
-    <birthDate>6/19/1970</birthDate>
-    <phone>7864567723</phone>
-    <email>Cmart@yahoo.com</email>
-  </Patient>
-  <Patient>
-    <idNumber>8</idNumber>
-    <firstName>Carloss</firstName>
-    <lastName>Martinez</lastName>
-    <birthDate>6/19/1970</birthDate>
-    <phone>7864567723</phone>
-    <email>Cmart@yahoo.com</email>
   </Patient>
 </ArrayOfPatient>

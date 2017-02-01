@@ -1,4 +1,4 @@
-﻿Public Class Appointment
+﻿Public Class Appointment 
 
 
     Public Property ID As String

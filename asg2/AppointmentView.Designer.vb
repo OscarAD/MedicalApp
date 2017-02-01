@@ -50,10 +50,12 @@ Partial Class AppointmentView
         Me.DataGridView.ColumnHeadersHeight = 40
         Me.DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
         Me.DataGridView.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.DataGridView.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DataGridView.Dock = System.Windows.Forms.DockStyle.Top
         Me.DataGridView.GridColor = System.Drawing.Color.Black
         Me.DataGridView.Location = New System.Drawing.Point(0, 0)
+        Me.DataGridView.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.DataGridView.Name = "DataGridView"
+        Me.DataGridView.ReadOnly = True
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = System.Drawing.Color.White
         DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -65,7 +67,7 @@ Partial Class AppointmentView
         Me.DataGridView.RowHeadersVisible = False
         Me.DataGridView.RowTemplate.Height = 24
         Me.DataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView.Size = New System.Drawing.Size(1366, 716)
+        Me.DataGridView.Size = New System.Drawing.Size(1024, 582)
         Me.DataGridView.TabIndex = 10
         '
         'btnExit
@@ -76,9 +78,10 @@ Partial Class AppointmentView
         Me.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnExit.Font = New System.Drawing.Font("Arial Unicode MS", 19.8!)
         Me.btnExit.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.btnExit.Location = New System.Drawing.Point(1268, 1)
+        Me.btnExit.Location = New System.Drawing.Point(951, 1)
+        Me.btnExit.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(98, 51)
+        Me.btnExit.Size = New System.Drawing.Size(74, 41)
         Me.btnExit.TabIndex = 29
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = False
@@ -88,9 +91,10 @@ Partial Class AppointmentView
         Me.Label11.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.Label11.Font = New System.Drawing.Font("Arial Unicode MS", 19.8!)
         Me.Label11.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Label11.Location = New System.Drawing.Point(-37, 0)
+        Me.Label11.Location = New System.Drawing.Point(-28, 0)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(1440, 52)
+        Me.Label11.Size = New System.Drawing.Size(1080, 42)
         Me.Label11.TabIndex = 28
         Me.Label11.Text = "ALL APPOINTMENTS"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -101,22 +105,24 @@ Partial Class AppointmentView
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel1.Controls.Add(Me.DataGridView)
-        Me.Panel1.Location = New System.Drawing.Point(0, 52)
+        Me.Panel1.Location = New System.Drawing.Point(0, 42)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1366, 716)
+        Me.Panel1.Size = New System.Drawing.Size(1024, 582)
         Me.Panel1.TabIndex = 30
         '
         'AppointmentView
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Asg2.My.Resources.Resources.background
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1366, 768)
+        Me.ClientSize = New System.Drawing.Size(1024, 624)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.Label11)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "AppointmentView"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "AppointmentView"

@@ -37,6 +37,7 @@ Public Class editPatientForm
 
         'Closes forms and brings an updated version of the list up
         Me.Close()
+        MainForm.Show()
 
 
     End Sub

@@ -22,12 +22,27 @@ Asg2
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Asg2.My.Resources.Resources._exit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Asg2.My.Resources.Resources.back">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:Asg2.My.Resources.Resources.background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Asg2.My.Resources.Resources.exit1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Asg2.My.Resources.Resources.exit2">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
