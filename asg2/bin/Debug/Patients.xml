@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfPatient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Patient>
-    <idNumber>1</idNumber>
+    <idNumber>0</idNumber>
     <firstName>Peter</firstName>
     <lastName>Griffin</lastName>
     <birthDate>5/03/1980</birthDate>
@@ -9,7 +9,7 @@
     <email>PG54@yahoo.com</email>
   </Patient>
   <Patient>
-    <idNumber>2</idNumber>
+    <idNumber>1</idNumber>
     <firstName>Rody</firstName>
     <lastName>Brandy</lastName>
     <birthDate>3/25/1940</birthDate>
@@ -19,6 +19,18 @@
     <planType>PPO</planType>
     <subscriberID>2334234</subscriberID>
     <planID>1542</planID>
+  </Patient>
+  <Patient>
+    <idNumber>2</idNumber>
+    <firstName>Kevin</firstName>
+    <lastName>Port</lastName>
+    <birthDate>5/1/1961</birthDate>
+    <phone>7863456622</phone>
+    <email>KP2342@hotmail.com</email>
+    <insuranceProvider>Cigna</insuranceProvider>
+    <planType>HMO</planType>
+    <subscriberID>5435</subscriberID>
+    <planID>6453</planID>
   </Patient>
   <Patient>
     <idNumber>3</idNumber>
@@ -34,26 +46,18 @@
   </Patient>
   <Patient>
     <idNumber>4</idNumber>
-    <firstName>Andrew</firstName>
-    <lastName>Michaels</lastName>
-    <birthDate>9/11/1956</birthDate>
-    <phone>7864562254</phone>
-    <email>aMichaels@yahoo.com</email>
+    <firstName>Monica</firstName>
+    <lastName>Johnson</lastName>
+    <birthDate>8/23/1940</birthDate>
+    <phone>7865642378</phone>
+    <email>MJ5434@hotmail.com</email>
+    <insuranceProvider>Blue Cross Blue Shield</insuranceProvider>
+    <planType>PPO</planType>
+    <subscriberID>532452</subscriberID>
+    <planID>5454</planID>
   </Patient>
   <Patient>
     <idNumber>5</idNumber>
-    <firstName>John</firstName>
-    <lastName>Smith</lastName>
-    <birthDate>6/19/1970</birthDate>
-    <phone>7864567723</phone>
-    <email>salemany@yahoo.com</email>
-    <insuranceProvider>Estrella</insuranceProvider>
-    <planType>HMO</planType>
-    <subscriberID>33234</subscriberID>
-    <planID>3423</planID>
-  </Patient>
-  <Patient>
-    <idNumber>6</idNumber>
     <firstName>Carlos</firstName>
     <lastName>Martinez</lastName>
     <birthDate>6/19/1970</birthDate>
