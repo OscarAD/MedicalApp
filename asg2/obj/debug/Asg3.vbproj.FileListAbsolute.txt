@@ -98,3 +98,20 @@ D:\Documents\Programming History\asg3 (MEDICAL OFFICE)\Asg2\bin\Debug\Asg2.exe.c
 D:\Documents\Programming History\asg3 (MEDICAL OFFICE)\Asg2\obj\Debug\Asg2.exe
 D:\Documents\Programming History\asg3 (MEDICAL OFFICE)\Asg2\obj\Debug\Asg2.xml
 D:\Documents\Programming History\asg3 (MEDICAL OFFICE)\Asg2\obj\Debug\Asg2.pdb
+D:\Documents\Programming History\asg3\Asg2\bin\Debug\Asg2.exe.config
+D:\Documents\Programming History\asg3\Asg2\bin\Debug\Asg2.exe
+D:\Documents\Programming History\asg3\Asg2\bin\Debug\Asg2.pdb
+D:\Documents\Programming History\asg3\Asg2\bin\Debug\Asg2.xml
+D:\Documents\Programming History\asg3\Asg2\obj\Debug\Asg2.AppointmentMake.resources
+D:\Documents\Programming History\asg3\Asg2\obj\Debug\Asg2.AppointmentView.resources
+D:\Documents\Programming History\asg3\Asg2\obj\Debug\Asg2.editPatientForm.resources
+D:\Documents\Programming History\asg3\Asg2\obj\Debug\Asg2.MainForm.resources
+D:\Documents\Programming History\asg3\Asg2\obj\Debug\Asg2.Resources.resources
+D:\Documents\Programming History\asg3\Asg2\obj\Debug\Asg2.patientFindForm.resources
+D:\Documents\Programming History\asg3\Asg2\obj\Debug\Asg2.patientForm.resources
+D:\Documents\Programming History\asg3\Asg2\obj\Debug\Asg2.patientListForm.resources
+D:\Documents\Programming History\asg3\Asg2\obj\Debug\Asg3.vbproj.GenerateResource.Cache
+D:\Documents\Programming History\asg3\Asg2\obj\Debug\Asg2.exe
+D:\Documents\Programming History\asg3\Asg2\obj\Debug\Asg2.xml
+D:\Documents\Programming History\asg3\Asg2\obj\Debug\Asg2.pdb
+D:\Documents\Programming History\asg3\Asg2\obj\Debug\Asg3.vbprojResolveAssemblyReference.cache

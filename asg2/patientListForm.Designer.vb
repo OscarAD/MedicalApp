@@ -31,6 +31,7 @@ Partial Class patientListForm
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.delBtn = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -40,7 +41,7 @@ Partial Class patientListForm
         Me.lstPatients.FormattingEnabled = True
         Me.lstPatients.ItemHeight = 20
         Me.lstPatients.Location = New System.Drawing.Point(0, 2)
-        Me.lstPatients.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.lstPatients.Margin = New System.Windows.Forms.Padding(2)
         Me.lstPatients.Name = "lstPatients"
         Me.lstPatients.Size = New System.Drawing.Size(730, 384)
         Me.lstPatients.TabIndex = 0
@@ -66,7 +67,7 @@ Partial Class patientListForm
         Me.btnExit.Font = New System.Drawing.Font("Arial Unicode MS", 19.8!)
         Me.btnExit.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.btnExit.Location = New System.Drawing.Point(951, 1)
-        Me.btnExit.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnExit.Margin = New System.Windows.Forms.Padding(2)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(74, 41)
         Me.btnExit.TabIndex = 25
@@ -77,11 +78,12 @@ Partial Class patientListForm
         '
         Me.Panel1.BackColor = System.Drawing.Color.Transparent
         Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Panel1.Controls.Add(Me.delBtn)
         Me.Panel1.Controls.Add(Me.closeBtn)
         Me.Panel1.Controls.Add(Me.btnEdit)
         Me.Panel1.Controls.Add(Me.lstPatients)
         Me.Panel1.Location = New System.Drawing.Point(147, 79)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(730, 497)
         Me.Panel1.TabIndex = 26
@@ -96,7 +98,7 @@ Partial Class patientListForm
         Me.closeBtn.Font = New System.Drawing.Font("Arial Unicode MS", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.closeBtn.ForeColor = System.Drawing.Color.Firebrick
         Me.closeBtn.Location = New System.Drawing.Point(380, 417)
-        Me.closeBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.closeBtn.Margin = New System.Windows.Forms.Padding(2)
         Me.closeBtn.Name = "closeBtn"
         Me.closeBtn.Size = New System.Drawing.Size(151, 63)
         Me.closeBtn.TabIndex = 21
@@ -113,7 +115,7 @@ Partial Class patientListForm
         Me.btnEdit.Font = New System.Drawing.Font("Arial Unicode MS", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnEdit.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.btnEdit.Location = New System.Drawing.Point(196, 417)
-        Me.btnEdit.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnEdit.Margin = New System.Windows.Forms.Padding(2)
         Me.btnEdit.Name = "btnEdit"
         Me.btnEdit.Size = New System.Drawing.Size(151, 63)
         Me.btnEdit.TabIndex = 16
@@ -154,6 +156,23 @@ Partial Class patientListForm
         Me.Label3.TabIndex = 29
         Me.Label3.Text = "Patient Name"
         '
+        'delBtn
+        '
+        Me.delBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.delBtn.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.delBtn.FlatAppearance.BorderColor = System.Drawing.Color.Firebrick
+        Me.delBtn.FlatAppearance.BorderSize = 2
+        Me.delBtn.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.delBtn.Font = New System.Drawing.Font("Arial Unicode MS", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.delBtn.ForeColor = System.Drawing.Color.Firebrick
+        Me.delBtn.Location = New System.Drawing.Point(554, 417)
+        Me.delBtn.Margin = New System.Windows.Forms.Padding(2)
+        Me.delBtn.Name = "delBtn"
+        Me.delBtn.Size = New System.Drawing.Size(151, 63)
+        Me.delBtn.TabIndex = 22
+        Me.delBtn.Text = "Delete"
+        Me.delBtn.UseVisualStyleBackColor = False
+        '
         'patientListForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -169,7 +188,7 @@ Partial Class patientListForm
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.Label11)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "patientListForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Patients"
@@ -188,4 +207,5 @@ Partial Class patientListForm
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
+    Friend WithEvents delBtn As Button
 End Class

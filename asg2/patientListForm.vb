@@ -48,4 +48,41 @@
         editPatientForm.Show()
 
     End Sub
+
+    Private Sub closeBtn_Click(sender As Object, e As EventArgs) Handles closeBtn.Click
+
+    End Sub
+
+    Private Sub delBtn_Click(sender As Object, e As EventArgs) Handles delBtn.Click
+        Try
+
+            Dim indexExtract As String() = Split(lstPatients.SelectedItem.ToString(), ".")
+            Dim index As Integer = CInt(indexExtract(1))
+
+            patientList.RemoveAt(index)
+            RefreshListView()
+
+        Catch ex As ArgumentOutOfRangeException
+            MsgBox("WOOOOOOT", 0, "YOU BROKE IT!!!!")
+        Catch ex As System.NullReferenceException
+            MsgBox("WOOOOOOT", 0, "YOU BROKE IT AGAIN!!!!")
+        End Try
+
+
+
+    End Sub
+
+
+    Public Sub RefreshListView()
+
+        lstPatients.DataSource = patientList
+
+        lstPatients.ClearSelected()
+        Me.Hide()
+        Me.Show()
+
+
+    End Sub
+
+
 End Class

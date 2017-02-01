@@ -52,6 +52,7 @@ Public Class MainForm
 
     Private Sub patientAdd_Click() Handles patientAdd.Click
 
+
         patientForm.Show()
         Me.Hide()
 
@@ -88,8 +89,9 @@ Public Class MainForm
 
     Private Sub patientFind_Click(sender As Object, e As EventArgs) Handles patientFind.Click
 
-        Me.Hide()
+
         patientFindForm.Show()
+        Me.Hide()
 
 
     End Sub

@@ -84,4 +84,12 @@
     <phone>7864567723</phone>
     <email>Cmart@yahoo.com</email>
   </Patient>
+  <Patient>
+    <idNumber>8</idNumber>
+    <firstName>Carloss</firstName>
+    <lastName>Martinez</lastName>
+    <birthDate>6/19/1970</birthDate>
+    <phone>7864567723</phone>
+    <email>Cmart@yahoo.com</email>
+  </Patient>
 </ArrayOfPatient>
