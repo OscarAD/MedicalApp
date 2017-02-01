@@ -1,4 +1,4 @@
-A common task for all medical offices is that of scheduling appointments. This application will handle all the tasks associated with scheduling. This program was built in steps. Each user interface had to be attractive, easy to use and understandable, also impervious to runtime errors. Included are user menus and toolbars that will permit later expansion of the program.
+A common task for all medical offices is that of scheduling appointments. This application will handle all the tasks associated with scheduling. This program was built in steps. Each user interface had to be attractive, easy to use and understandable, also impervious to runtime errors.
 
 
 ![screenshot1](2.png)
